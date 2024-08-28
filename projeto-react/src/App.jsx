@@ -6,7 +6,7 @@ import { ReposList } from './assets/components/ReposList';
 
 function App() {
   const [formularioEstaVisivil, setFormularioEstaVisivel] = useState(true);
-  cosnt [nomeUsuario, setNomeUsuario] = useState('');
+  const [nomeUsuario, setNomeUsuario] = useState('');
 
   return(
     <>
